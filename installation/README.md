@@ -8,9 +8,9 @@ If you **DO NOT** have tensorflow installed on your local machine, use the follo
 
 ## Mac OS X
 
-Detailed step-by-step instructions for running the code notebooks for this workshop on a Mac [here](/step_by_step_MacOSX_install.md).
+Detailed step-by-step instructions for running the code notebooks for this workshop on a Mac [here](./step_by_step_MacOSX_install.md).
 
 
 ## Windows
 
-Detailed instructions for downloading Docker and installing TensorFlow can be found [here](https://gist.github.com/ericjang/959c03168c0bdfac1ca3)
+Detailed instructions for downloading Docker and installing TensorFlow by [Eric Jang](https://github.com/ericjang) can be found [here](https://gist.github.com/ericjang/959c03168c0bdfac1ca3)
