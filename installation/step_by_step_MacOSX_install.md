@@ -45,7 +45,7 @@ Docker is a system to build self contained versions of a Linux operating system 
 8. Open a new terminal window by pressing **cmd** + **t** and move into the workshop directory by executing `cd Image-Classification-TensorFlow`
 
 
-9. Link this directory to your Docker container by executing `docker run -it --rm --name tf -v ~/Image-Classification-TensorFlow:/notebooks/ -p 8888:8888 -p 6006:6006 tensorflow/tensorflow`
+9. Link this directory to your Docker container by executing `docker run -it --rm --name tf -v ~/dev/Image-Classification-TensorFlow:/notebooks/ -p 8888:8888 -p 6006:6006 tensorflow/tensorflow`
 
 
 You can access the bash in your Docker container through the terminal by executing this command instead: 
