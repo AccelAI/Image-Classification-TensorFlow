@@ -50,7 +50,7 @@ Docker is a system to build self contained versions of a Linux operating system 
 
 You can access the bash in your Docker container through the terminal by executing this command instead: 
 
-`docker run -it --rm --name tf -v ~/dev/Image-Classification-TensorFlow:/notebooks/ -p 8888:8888 -p 6006:6006 tensorflow/tensorflow /bin/sh`
+`docker run -it --rm --name tf -v ~/Image-Classification-TensorFlow:/notebooks/ -p 8888:8888 -p 6006:6006 tensorflow/tensorflow /bin/sh`
 
 More details on sharing files from your local machine into a Docker container can be found here: https://github.com/rocker-org/rocker/wiki/Sharing-files-with-host-machine
 
