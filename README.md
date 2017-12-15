@@ -6,6 +6,13 @@ Step-by-step guides for running the code in this repository can be found in the 
 
 If you already have Tensorflow installed on your local machine either directly or through an Anaconda distribution, simply clone this repository in your prefered directory, cd into the cloned directory, and type `jupyter notebook` to get started (it will appear in a new browser window or tab).
 
+If you are not able to launch Jupyter Notebook inside your TensorFlow virtual environment execute the following once inside this project directory:
+
+`pip install ipykernel
+python -m ipykernel install --user --name=my-virtualenv-name`
+
+Replace "my-virtualenv-name" with the name of your environment.
+
 ## Following the Lab
 
 1. Begin on the Hello World notebook to make sure TensorFlow is installed and functioning properly in your environment.

@@ -2,6 +2,12 @@
 
 If you already have tensorflow installed on your local machine either directly or through an Anaconda distribution, simply clone this repository in your prefered directory, cd into the cloned directory, and type `jupyter notebook` to get started.
 
+If you are not able to launch Jupyter Notebook inside your TensorFlow virtual environment execute the following once inside this project directory:
+
+`pip install ipykernel
+python -m ipykernel install --user --name=my-virtualenv-name`
+
+Replace "my-virtualenv-name" with the name of your environment.
 
 If you **DO NOT** have tensorflow installed on your local machine, use the following installation guides to get started.
 
