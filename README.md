@@ -27,6 +27,6 @@ If you are using TensorFlow in Docker, run the following command to access the d
 
 3. Once you've successfully trained the classifier to recognize flower data, we'll modify the image paths to train on the cephalopod data i've included in this repository.
 
-4. Scrape Google for image data of your own categories using my [Google Image Scraper](https://github.com/quickresolve/img-scrapers)
+4. Scrape Google for image data of your own categories using a [Google Image Scraper](https://github.com/quickresolve/img-scrapers)
 
 5. Train the classifier on your new data set!!
