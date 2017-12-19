@@ -56,6 +56,8 @@ More details on sharing files from your local machine into a Docker container ca
 
 10. Click the link in your terminal while holding down the **cmd** key to launch Jupyter in your browser
 
+11. Return to the lab [README](../README.md) for further instructions.
+
 
 ## Shutdown
 

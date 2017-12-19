@@ -19,4 +19,4 @@ Detailed step-by-step instructions for running the code notebooks for this works
 
 ## Windows
 
-Detailed instructions for downloading Docker and installing TensorFlow by [Eric Jang](https://github.com/ericjang) can be found [here](https://gist.github.com/ericjang/959c03168c0bdfac1ca3)
+Detailed instructions for downloading Docker and installing TensorFlow on Windows can be found [here](./step_by_step_Windows_install.md)
