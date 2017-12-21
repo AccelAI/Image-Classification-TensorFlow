@@ -2,6 +2,10 @@
 
 ## Installing Docker
 
+Docker is a system to build self contained versions of a Linux operating system running on your machine. When you install and run TensorFlow via Docker it completely isolates the installation from pre-existing packages on your machine.
+
+**Windows 10 or newer:**
+
 1. Download the Docker installer [here](https://download.docker.com/win/stable/InstallDocker.msi).
 
 2. Run ‘InstallDocker.msi’
@@ -13,6 +17,17 @@ If Docker warns you about Hyper-V not being enabled, allow Docker to enable Hype
 4. Open PowerShell or ‘cmd.exe’ and run the Docker hello-world image to ensure Docker is working properly
 
 `docker run hello-world`
+
+**Windows 7**
+
+The legacy solution for older Windows systems is Docker Toolbox.
+
+https://docs.docker.com/toolbox/toolbox_install_windows/
+
+Click on the "Get Docker Toolbox for Windows" button. 
+
+Follow their instructions to install Docker and to make sure that virtualization is enabled on your machine.
+
 
 ## Installing TensorFlow
 
@@ -45,7 +60,7 @@ Note: For this lab, we are cloning the Image-Classification-TensorFlow repo to t
     - Go to ‘Shared Drives’ and check the box for the drive is located on.
     - Click ‘Apply’
 
-3. Open PowerShell
+3. Open a **new** PowerShell
 
 4. Run the TensorFlow docker image and mount the notebooks.
 
